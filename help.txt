@@ -1,0 +1,29 @@
+npm WARN
+notsup Unsupported engine for watchpack-chokidar2@2.0.0:
+wanted: {"node":"<8.10.0"} (current: {"node":"12.18.2","npm":"6.14.3"})
+npm WARN
+notsup Not compatible with your version of node/npm: watchpack-chokidar2@2.0.0
+npm WARN
+@angular/animations@10.1.5 requires a peer of @angular/core@10.1.5 but none is
+installed. You must install peer dependencies yourself.
+npm WARN
+@angular/forms@10.1.6 requires a peer of @angular/common@10.1.6 but none is
+installed. You must install peer dependencies yourself.
+npm WARN
+@angular/core@10.1.6 requires a peer of zone.js@~0.10.3 but none is
+installed. You must install peer dependencies yourself.
+npm WARN
+@angular/platform-browser@10.1.6 requires a peer of @angular/common@10.1.6 but none is
+installed. You must install peer dependencies yourself.
+npm WARN
+@angular/platform-browser-dynamic@10.1.6 requires a peer of @angular/common@10.1.6
+but none is installed. You must install peer dependencies yourself.
+npm WARN
+@angular/platform-browser-dynamic@10.1.6 requires a peer of @angular/compiler@10.1.6
+but none is installed. You must install peer dependencies yourself.
+npm WARN
+@angular/router@10.1.6 requires a peer of @angular/common@10.1.6 but none is
+installed. You must install peer dependencies yourself.
+npm WARN
+@angular/common@10.1.5 requires a peer of @angular/core@10.1.5 but none is
+installed. You must install peer dependencies yourself.
