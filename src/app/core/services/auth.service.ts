@@ -1,16 +1,14 @@
-import { Inject, Injectable } from '@angular/core';
-import { APP_CONFIG } from '../../config/app-config.module';
-import { AppConfig } from '../models/core/app-config.model';
+import { Injectable } from '@angular/core';
+import { configs } from '../../config';
 
 @Injectable({providedIn: 'root'})
 export class AuthService {
 
     private get loginUrl() {
-        return `${this.config.apiEndpoint}/auth`;
+        return `${configs.apiEndpoint}/auth`;
     }
 
     constructor(
-        @Inject(APP_CONFIG) private config: AppConfig
     ) { }
 
 }

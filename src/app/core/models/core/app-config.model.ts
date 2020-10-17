@@ -1,5 +1,5 @@
 import { TypeProvider } from '@angular/core';
-import { LoggingLevelEnum } from '../enums/loggin-level.enum';
+import { LoggingLevelEnum } from '../enums';
 
 export type AppType = 'Ns' | 'Web';
 
@@ -7,6 +7,6 @@ export interface AppConfig {
     appType: AppType;
     apiEndpoint: string;
     loggingEnabled: boolean;
-    logginLevel: LoggingLevelEnum;
-    storageSAerviceClass: TypeProvider;
+    loggingLevel: LoggingLevelEnum;
+    storageServiceClass: TypeProvider;
 }

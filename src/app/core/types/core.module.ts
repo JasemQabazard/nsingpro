@@ -4,7 +4,8 @@ import { NgModule, Optional, SkipSelf } from '@angular/core';
     imports: [],
     exports: [],
     declarations: [],
-    providers: [],
+    providers: [
+    ],
 })
 export class CoreModule {
     constructor(
@@ -12,7 +13,7 @@ export class CoreModule {
     ) {
         if (parentModule) {
             throw new
-            Error('CoreM odule has already been loaded. Import the CoreModule into the AppModule only.');
+            Error('Core Module has already been loaded. Import the CoreModule into the AppModule only.');
         }
     }
 }
