@@ -1,7 +1,7 @@
 export interface PtObjectBase {
     id: number;
-    title: string;
+    title?: string;
     dateCreated: Date;
-    DateModified: Date;
+    dateModified: Date;
     dateDeleted?: Date;
 }

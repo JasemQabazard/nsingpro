@@ -1,10 +1,14 @@
-import { NgModule, Optional, SkipSelf } from '@angular/core';
+import { ErrorHandler, NgModule, Optional, SkipSelf } from '@angular/core';
+import { Store } from '../state/app-store';
+import { RpsErrorHandler } from '../helpers/rps-error-handler';
 
 @NgModule({
     imports: [],
     exports: [],
     declarations: [],
     providers: [
+        { provide: ErrorHandler, useClass: RpsErrorHandler},
+        Store
     ],
 })
 export class CoreModule {

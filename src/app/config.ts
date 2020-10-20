@@ -1,7 +1,7 @@
 export const configs = {
     production: false,
     appType: 'Ns',
-    apiEndpoint: 'http://127.0.0.1:8080/api',
+    apiEndpoint: 'http://192.168.1.199:8080/api',
     loggingEnabled: true,
     loggingLevel: 'Debug'
 };
